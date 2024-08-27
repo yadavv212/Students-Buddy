@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>student buddies</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- css file ko uper attach krna h -->
+
+</head>
+<body>
+    <div class="full-page">
+    <div class="navbar">
+        <div>
+            <a href ='web.html'>Student Buddies</a>
+            <!-- logo can be placed here -->
+            </div>
+
+            <nav>
+                <ul id="StudentPerformance">
+                    <li><a class="mr-5 hover:text-gray-900" href='web1.html'>Home</a></li>
+                <li><a class="mr-5 hover:text-gray-900" href='about.html'>About Us</a></li>
+            <li><a class="mr-5 hover:text-gray-900" href='resources.html'>Resources</a></li>
+        <li><a class="mr-5 hover:text-gray-900" href='cart.html'>Courses</a></li>
+    <li><a class="mr-5 hover:text-gray-900" href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <!-- navigation baar ka kaam idhar h -->
+            <!-- navigation bar styling -->
+        </div>
+        <div id="login-form"class='login-page'>
+            <!-- formbox yha h -->
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button"onclick='login()'class='toggle-btn'>log in</button>
+                    <button type="button"onclick='register()'class='toggle-btn'>register</button>
+                </div>
+                <!-- login form yha h -->
+                <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="Email ID"required>
+                    <input type="password" class="input-field" placeholder="enter password"required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit"class='submit-btn'>Log In</button>
+                </form>
+                <!-- registration form yha h -->
+                <form id="register" class="input-group-register">
+                    <input type="text" class="input-field" placeholder="first name"required>
+                    <input type="text" class="input-field" placeholder="last name"required>
+                    <input type="email" class="input-field" placeholder="Email ID"required>
+                    <input type="password" class="input-field" placeholder="enter password"required>
+                    <input type="password" class="input-field" placeholder="confirm password"required>
+                    <input type="checkbox" class="check-box" ><span>I agree to the terms and condition</span>
+                    <button type="submit"class='submit-btn'>register</button>
+                </form>
+                <!-- design form -->
+                
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

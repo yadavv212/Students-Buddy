@@ -1,0 +1,27 @@
+.goal{
+    position: relative;
+    margin: 2% auto;
+    background:rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow:unset;
+}
+.full-page
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://images8.alphacoders.com/484/thumb-1920-484717.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    /* background inge yaha h */
+}
+
+.welText {
+position: absolute;
+top: 0;
+color: rgb(255, 255, 255);
+}
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/119/108/original/plain-dirty-grunge-background-vector.jpg");
+}
